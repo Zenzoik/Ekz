@@ -25,8 +25,8 @@ public class Main {
         NotificationService notificationService = NotificationService.getInstance();
 
         // Створимо користувачів (підписників)
-        User user1 = new User("Alice");
-        User user2 = new User("Bob");
+        User user1 = new User("Iluha");
+        User user2 = new User("Dimchik");
 
         // Додаємо їх у підписники
         notificationService.addObserver(user1);
